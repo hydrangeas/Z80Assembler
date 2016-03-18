@@ -1,3 +1,6 @@
+# for OS
+.DS_Store
+
 # Compiled Object files
 *.slo
 *.lo
@@ -29,3 +32,6 @@
 
 # for Debug
 *.dSYM
+
+# Work Directory
+build/

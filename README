@@ -1,0 +1,17 @@
+Here the short sample how-to use Google C++ Test Framework in cmakeable projects
+
+1. Google test will be downloaded from GitHub and built with your project
+
+### How to build
+
+1. git clone https://github.com/hydrangeas/Z80Assembler.git
+2. cd Z80Assembler
+3. mkdir build
+4. cd build
+5. cmake ..
+6. cmake --build .
+7. ctest -VV
+
+### History
+
+2016.03.18 Copy Directory Structure from [https://github.com/snikulov/google-test-examples](https://github.com/snikulov/google-test-examples)
