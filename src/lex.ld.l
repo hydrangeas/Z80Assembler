@@ -118,6 +118,10 @@ WORD   {CHAR}{CHNUM}*
 
 [ \t] ;
 
+";".* {
+	fprintf(stdout, "comments\n");
+};
+
 . {
     char c = yytext[0];
 
